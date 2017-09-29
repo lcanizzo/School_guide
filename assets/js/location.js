@@ -37,19 +37,11 @@ function geocodeLatLng(geocoder, map, infowindow, myCenter) {
 
 // draws the actual graph in html
 function DrawGoogleMap() {
-
-  //Was Misspelled but still didn't seem to remove it as we get Duplicate Error for Multiple Google Maps API in Console
-  // $("#google-map").empty();
-  $("#googleMap").empty();
-
-  if (googleAPILoaded == false) {
-    var script_tag = document.createElement('script');
-    
-    script_tag.type = 'text/javascript';
-    script_tag.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCHNMMsn8uWjLdbAQUWpT0Vsnc11DzNHcg&libraries=places&callback=initMap"
-    script_tag.setAttribute('defer','');
-    script_tag.setAttribute('async','');
-    $("#googleMap").append(script_tag);
-    googleAPILoaded = true;
-  }
+  $("#google-map").empty();
+   var script_tag = document.createElement('script');
+     script_tag.type = 'text/javascript';
+      script_tag.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCHNMMsn8uWjLdbAQUWpT0Vsnc11DzNHcg&libraries=places&callback=initMap"
+      script_tag.setAttribute('defer','');
+      script_tag.setAttribute('async','');
+      $("#googleMap").append(script_tag);
 }
