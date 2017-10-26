@@ -14,3 +14,8 @@ A dynamic website to search through Colleges and Universities with clear tables 
 - Users can filter through their initial search results that are displayed.
 - Nav-Search and Filter Box will scroll with the page.
     - Users can access all modifiable fields at any point in the gif-feed.
+
+![App Demo Gif](./assets/images/search_demo.gif)
+
+![App Demo Gif](./assets/images/search_filter.gif)
+
