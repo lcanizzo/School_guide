@@ -15,7 +15,9 @@ A dynamic website to search through Colleges and Universities with clear tables 
 - Nav-Search and Filter Box will scroll with the page.
     - Users can access all modifiable fields at any point in the gif-feed.
 
+###### Users can search by term, state, degree, maximum SAT, or tuition.
 ![App Demo Gif](./assets/images/search_demo.gif)
 
+###### All search parameters can be combined to filter and narrow searches.
 ![App Demo Gif](./assets/images/search_filter.gif)
 
